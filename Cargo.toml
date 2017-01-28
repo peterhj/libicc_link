@@ -1,0 +1,9 @@
+[package]
+name = "icc_link"
+version = "0.0.1"
+authors = ["Peter Jin <peterhaijin@gmail.com>"]
+#build = "build.rs"
+
+[lib]
+name = "icc_link"
+path = "src/lib.rs"
