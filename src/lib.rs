@@ -1,5 +1,8 @@
 // These are "icc" or "icpc" redistributable libraries.
 
+#[link(name = "intlc")]
+extern "C" {}
+
 #[link(name = "irc")]
 extern "C" {}
 
